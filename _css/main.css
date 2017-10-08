@@ -1,0 +1,64 @@
+aside, article, section, header, footer, nav {
+	display: block;
+	}
+
+html {
+	}
+body {
+	margin: 0 auto ;
+	width:	80%;
+	background-color:	white;
+	}
+nav {
+	//float:	left;
+	margin:	0 auto;
+	//width:	30%;
+	background-color:	cyan;
+	}
+
+nav ul li {
+	//display: block;
+	float:	left;
+	list-style-type:	none;
+	}
+nav ul li a {	
+	width: 8em;
+	display: block;
+	border: 3px solid rgb(204,204,204);
+	border-bottom: none;
+	border-radius: 5px 5px 0 0;
+	padding: 10px;
+	margin-right: 5px;
+	background-color: rgb(95,95,95);
+	background-image: -webkit-linear-gradient(rgb(175,175,175), rgb(95,95,95));
+	background-image: -moz-linear-gradient(rgb(175,175,175), rgb(95,95,95));
+	background-image: -o-linear-gradient(rgb(175,175,175), rgb(95,95,95));
+	background-image: linear-gradient(rgb(175,175,175), rgb(95,95,95));
+	text-decoration:none;
+	color: white;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	}
+	
+article {
+	//float:	right;
+	width:	70%;
+	}
+	
+header h2 {
+	text-align:	right;
+	}
+footer {
+	clear:	both;
+	}
+
+footer p {
+	text-align:	right;
+	}
+	
+
+
+
+
+
